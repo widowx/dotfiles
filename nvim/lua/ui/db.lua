@@ -47,7 +47,7 @@ local plugins_count = vim.fn.len(vim.fn.globpath(
 	'~/.local/share/nvim/site/pack/packer/start', '*', 0, 1
 ))
 
-db.custom_footer = {  'Fanaticism consists in redoubling your effort when you have forgotthen your aim.',
+db.custom_footer = {  'Simplicity is the soul of efficiency. -- Austin Freeman',
                       '',
                       '',
                       'Packer loaded ' .. plugins_count .. ' plugins'}
